@@ -5,7 +5,7 @@
     </div>
     <div class="mb-3">
         <label for="idoponttipus" class="form-label">Típus</label>
-        <select v-model="idopont.tipus" name="cars" class="form-control" id="idoponttipus">
+        <select v-model="idopont.tipus" class="form-control" id="idoponttipus">
             <option value="erettsegi">Érettségi</option>
             <option value="szakmai">Szakmai</option>
         </select>
